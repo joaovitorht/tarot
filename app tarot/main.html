@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tarot do dia </title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div id="overlay" onclick="off()"></div>
+
+    <h1> Tarot do dia </h1>
+
+    <div id="box-1">
+        <h2> <span> 1 </span> Qual seu nome? </h2>
+        <input>
+    </div>
+
+    <div id="box-2">
+        <h2> <span> 2 </span> Concentre-se profundamente em seu pensamento</h2>
+        <h3> Escolha um momento tranquilo para o jogo e feche os olhos por 
+alguns instantes. Concentre-se e peça mentalmente uma orientação para o seu
+dia. Você só pode tirar uma carta, por isso, quando se sentir preparado 
+embaralhe as cartas.</h3> <button id="shufle-cards" onclick="juntarCartas()"> Embaralhar cartas </button>
+    </div>
+    
+    <div id="box-3">
+        <h2> <span> 3 </span> Escolha uma carta do baralho abaixo</h2>
+            <div id="box-cards">
+
+                <button class="cartas-tarot" id="carta-numero-1" onclick="buscarCarta1(), on()">
+                    <div class="caixa-texto">
+                        <div class="texto-carta" id="nome-carta-1"></div>
+                        <div class="texto-carta" id="descricao-carta-1"></div>
+                    </div>
+                </button>
+
+                <button class="cartas-tarot" id="carta-numero-2" onclick="buscarCarta2(), on()">
+                    <div class="caixa-texto">
+                        <div class="texto-carta" id="nome-carta-2"></div>
+                        <div class="texto-carta" id="descricao-carta-2"></div>
+                    </div>
+                </button>
+
+                <button class="cartas-tarot" id="carta-numero-3" onclick="buscarCarta2(), on()">  
+                    <div class="texto-carta" id="nome-carta-3"></div>
+                    <div class="texto-carta" id="descricao-carta-3"></div>
+                </button>
+
+                <button class="cartas-tarot" id="carta-numero-4" onclick="buscarCarta1(), on()">
+                    <div class="texto-carta" id="nome-carta-3"></div>
+                    <div class="texto-carta" id="descricao-carta-3"></div>
+                </button>
+
+                <button class="cartas-tarot" id="carta-numero-5" onclick="buscarCarta1(), on()">
+                    <div class="texto-carta" id="nome-carta-3"></div>
+                    <div class="texto-carta" id="descricao-carta-3"></div>
+                </button>
+
+                <button class="cartas-tarot" id="carta-numero-6" onclick="buscarCarta1(), on()">  
+                    <div class="texto-carta" id="nome-carta-3"></div>
+                    <div class="texto-carta" id="descricao-carta-3"></div>
+                </button>
+
+                <button class="cartas-tarot" id="carta-numero-7" onclick="buscarCarta1(), on()">
+                    <div class="texto-carta" id="nome-carta-3"></div>
+                    <div class="texto-carta" id="descricao-carta-3"></div>
+                </button>
+
+                <button class="cartas-tarot" id="carta-numero-8" onclick="buscarCarta1(), on()">
+                    <div class="texto-carta" id="nome-carta-3"></div>
+                    <div class="texto-carta" id="descricao-carta-3"></div>
+                </button>
+
+                <button class="cartas-tarot" id="carta-numero-9" onclick="buscarCarta1(), on()">  
+                    <div class="texto-carta" id="nome-carta-3"></div>
+                    <div class="texto-carta" id="descricao-carta-3"></div>
+                </button>
+
+                <button class="cartas-tarot" id="carta-numero-10" onclick="buscarCarta1(), on()">
+                    <div class="texto-carta" id="nome-carta-3"></div>
+                    <div class="texto-carta" id="descricao-carta-3"></div>
+                </button>
+
+                <button class="cartas-tarot" id="carta-numero-11" onclick="buscarCarta1(), on()">
+                    <div class="texto-carta" id="nome-carta-3"></div>
+                    <div class="texto-carta" id="descricao-carta-3"></div>
+                </button>
+
+                <button class="cartas-tarot" id="carta-numero-12" onclick="buscarCarta1(), on()">  
+                    <div class="texto-carta" id="nome-carta-3"></div>
+                    <div class="texto-carta" id="descricao-carta-3"></div>
+                </button>
+
+                <button class="cartas-tarot" id="carta-numero-13" onclick="buscarCarta1(), on()">
+                    <div class="texto-carta" id="nome-carta-3"></div>
+                    <div class="texto-carta" id="descricao-carta-3"></div>
+                </button>
+
+                <button class="cartas-tarot" id="carta-numero-14" onclick="buscarCarta14(), on()">
+                    <div class="caixa-texto">
+                        <div class="texto-carta" id="nome-carta-14"></div>
+                        <div class="texto-carta" id="descricao-carta-14"></div>
+                    </div>
+                </button>
+               
+            </div>   
+    </div>
+
+</body>
+<script src="main.js"></script>
+
+</html>

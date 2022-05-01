@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 50px;
+    color: rgb(0, 0, 122);
+}
+
+h3{
+    margin-top: -5px;
+}
+
+span{
+    font-size: 30px;
+    color: rgb(0, 0, 122);
+}
+
+#box-1{
+    width: 90%;
+    margin-left: 30px;
+    box-shadow: 0px 5px 20px gray;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+input{
+    width: 250px;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 15px;
+    padding: 6px 12px;
+}
+
+#box-2{
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 30px;
+    box-shadow: 0px 5px 20px gray;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+#shufle-cards{
+    height: 40px;
+    width: 250px;
+    background-color: rgb(249, 35, 131);
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    color: white;
+    box-shadow: 0px 5px 20px gray;
+}
+
+#shufle-cards.embaralhar{
+    transition: 1s all;
+}
+
+#shufle-cards:hover{
+    box-shadow: 0px 5px 30px gray;
+}
+
+#box-3{
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 30px;
+    box-shadow: 0px 5px 20px gray;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+#box-cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.cartas-tarot{
+    height: 200px;
+    width: 100px;
+    background-color: rgba(150, 87, 5, 0.556);
+    margin-left: -20px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.cartas-tarot:hover{
+    margin-top: -15px;
+    margin-left: -5px;
+    transition: 0.5s;
+}
+
+.cartas-tarot.embaralhar{
+    margin-left: -100px;
+    transition: 2s;
+}
+
+.cartas-tarot.escolhida{
+    position: absolute;
+    z-index: 10;
+    transition: 1s;
+    height: 400px;
+    width: 250px;
+    margin-left: 400px;
+    margin-top: -400px;
+    background-color: rgb(111, 63, 0);
+}
+
+.caixa-texto{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto-carta{
+    font-size: 15px;
+    color: white;
+    display: flex;
+    flex-grow: 1;
+}
+
+#carta-numero-1.embaralhar{
+    margin-left: 500px;
+    transition: 2s;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+  }
